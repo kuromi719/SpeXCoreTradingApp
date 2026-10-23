@@ -1,0 +1,35 @@
+# Local configuration and environment files
+.env
+.env.*
+!.env.example
+core/system/config.php
+core/system/.installed
+install/.lock
+
+# Runtime and user-generated data
+core/database-backups/
+core/system/Logs/*.log
+core/uploads/identifications/
+core/uploads/kyc/
+core/cache/
+core/sessions/
+
+# Dependencies
+core/vendor/
+node_modules/
+
+# Credentials, certificates, and database exports
+*.sql
+*.dump
+*.bak
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

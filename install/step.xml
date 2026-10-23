@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+    <info>
+        <version>3.5</version>
+        <name>SpeX-Trading Platform</name>
+        <author>SpeXD</author>
+        <created>2025-07-15</created>
+    </info>
+    <steps>
+        <step name="WELCOME" value="1" title="Welcome" description="Welcome to SpeX Trading Platform" icon="fas fa-rocket"/>
+        <step name="REQUIREMENTS" value="1" title="System Check" description="Check system requirements" icon="fas fa-server"/>
+        <step name="LICENSE" value="1" title="License Activation" description="Activate your license key" icon="fas fa-key"/>
+        <step name="DB_CONNECT" value="1" title="Database Setup" description="Configure database connection" icon="fas fa-database"/>
+        <step name="SQL_IMPORT" value="1" title="Import Database" description="Import database structure and data" icon="fas fa-download"/>
+        <step name="ADMIN_CREATE" value="1" title="Create Admin" description="Create administrator account" icon="fas fa-user-shield"/>
+        <step name="SETTINGS" value="1" title="Basic Settings" description="Configure basic system settings" icon="fas fa-cogs"/>
+        <step name="FINALIZE" value="1" title="Finalization" description="Complete installation process" icon="fas fa-check-circle"/>
+    </steps>
+    <progress>
+        <current_step>SETTINGS</current_step>
+        <total_steps>8</total_steps>
+        <completed_steps>8</completed_steps>
+        <installation_started>false</installation_started>
+        <installation_completed>true</installation_completed>
+    </progress>
+</installation>

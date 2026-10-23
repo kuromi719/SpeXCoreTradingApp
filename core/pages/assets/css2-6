@@ -1,0 +1,490 @@
+﻿@font-face {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/almarai/v18/tssoApxBaigK_hnnS_anhng.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/almarai/v18/tsstApxBaigK_hnnc1o.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/almarai/v18/tssoApxBaigK_hnnS-aghng.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/almarai/v18/tssoApxBaigK_hnnS_qjhng.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVLSTAyLFyeg_IDWvOJmVES_HwyPRsSZQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPbczRbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPdMwRbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVNSTAyLFyeg_IDWvOJmVES_HwyBX8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPYsxRbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPac2Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPcM3Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPd80Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPfs1Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVNSTAyLFyeg_IDWvOJmVES_HRUBX8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HT4JF8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HScJ18y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_Eww.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HTEJl8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HToIV8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HSMIF8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HSQI18y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HS0Il8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cactus Classical Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/cactusclassicalserif/v12/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKV-Go6G5tXcraQI2GAdQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKS-Go6G5tXcraQI82hVaQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKS-Go6G5tXcraQI6miVaQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKX-Go6G5tXcraQGwU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKS-Go6G5tXcraQI_GjVaQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKS-Go6G5tXcraQI92kVaQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKS-Go6G5tXcraQI7mlVaQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKS-Go6G5tXcraQI6WmVaQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKS-Go6G5tXcraQI4GnVaQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKX-Go6G5tXcr72GwU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKU-Go6G5tXcr5aOiWg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKU-Go6G5tXcr4-OSWg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKZ-Go6G5tXcoaS.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKU-Go6G5tXcr5mOCWg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKU-Go6G5tXcr5KPyWg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKU-Go6G5tXcr4uPiWg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKU-Go6G5tXcr4yPSWg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/kanit/v16/nKKU-Go6G5tXcr4WPCWg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0C4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bC1C4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61C4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1C4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yC4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyC4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/outfit/v14/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyC4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBmWq0JM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBleq0JM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBrut0JM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBoKt0JM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6nNRY3p.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6n_RY3p.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6kTQo3p.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Radio Canada Big';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/radiocanadabig/v2/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6kqQo3p.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oLoDMhq.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oLaDMhq.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oI2C8hq.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oIPC8hq.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oJoC8hq.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oJBC8hq.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNIsEATw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNEMEATw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMN_MYATw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNxcYATw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNosYATw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/schibstedgrotesk/v6/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNi8YATw.ttf) format('truetype');
+}

@@ -1,0 +1,304 @@
+/* CSS Reset */
+body,
+table,
+td,
+p,
+a,
+li,
+blockquote {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+table,
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    outline: none;
+}
+
+/* Main Styles */
+.email-body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, Arial, sans-serif;
+}
+
+.preheader {
+    display: none;
+    font-size: 1px;
+    line-height: 1px;
+    max-height: 0;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.email-container {
+    background-color: #f5f5f5;
+}
+
+.main-wrapper {
+    padding: 40px 20px;
+}
+
+.email-wrapper {
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header-bg {
+    padding: 0;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    border-radius: 8px 8px 0 0;
+}
+
+.header-content {
+    padding: 40px 40px 30px 40px;
+    text-align: center;
+}
+
+.logo-container {
+    background-color: #d4af37;
+    border-radius: 4px;
+    padding: 12px 24px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    letter-spacing: -0.5px;
+}
+
+.header-title {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 50px 40px 30px 40px;
+}
+
+.greeting {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+}
+
+.intro-text {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin: 0 0 30px 0;
+}
+
+/* Password Container */
+.password-container {
+    background-color: #ecf0f1;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.password-title {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    color: #2c3e50;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.password-box {
+    background-color: #ffffff;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.password-text {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    color: #c0392b;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-break: break-all;
+}
+
+/* CTA Button */
+.cta-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta-table {
+    margin: 0 auto;
+}
+
+.cta-button {
+    background: linear-gradient(135deg, #d4af37 0%, #f1c40f 100%);
+    border-radius: 6px;
+    padding: 16px 32px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cta-link {
+    color: #2c3e50;
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    min-width: 120px;
+    min-height: 20px;
+    line-height: 20px;
+}
+
+/* Security Information */
+.security-info {
+    background-color: #f8f9fa;
+    border-left: 4px solid #6c757d;
+    border-radius: 4px;
+    padding: 25px;
+    margin: 40px 0;
+}
+
+.security-title {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    color: #2c3e50;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.security-table {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.security-label {
+    padding: 6px 0;
+    font-weight: 600;
+    width: 35%;
+}
+
+.security-value {
+    padding: 6px 0;
+}
+
+.security-ip {
+    font-family: "Courier New", monospace;
+}
+
+/* Security Warning */
+.security-warning {
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.warning-title {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    color: #856404;
+    margin: 0 0 12px 0;
+    font-weight: 600;
+}
+
+.warning-text {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #856404;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Footer */
+.footer-bg {
+    padding: 30px 40px 40px 40px;
+    background-color: #2c3e50;
+    border-radius: 0 0 8px 8px;
+}
+
+.footer-content {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.footer-text {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    color: #95a5a6;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.copyright-text {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    color: #95a5a6;
+    margin: 0;
+}
+
+/* Progressive Enhancement */
+@media screen and (max-width: 600px) {
+    .mobile-stack {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .mobile-center {
+        text-align: center !important;
+    }
+
+    .mobile-padding {
+        padding: 20px !important;
+    }
+
+    .mobile-font-size {
+        font-size: 18px !important;
+    }
+
+    .security-info {
+        padding: 15px !important;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .dark-mode {
+        background-color: #1a1a1a !important;
+        color: #ffffff !important;
+    }
+
+    .dark-mode-card {
+        background-color: #2d2d2d !important;
+    }
+}
